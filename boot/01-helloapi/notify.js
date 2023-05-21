@@ -42,5 +42,5 @@ const sendNotify = async(message, access_token) => {
         }
     };
     const res = await axios.post(url, data, config);
-    // console.log(res);
+    console.log(res);
 }
